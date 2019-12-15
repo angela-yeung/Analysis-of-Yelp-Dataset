@@ -1,5 +1,7 @@
 # Analysis-of-Yelp-Dataset
 
+The aim of this project was to derive factors that would lead to a successful chain restaurant by analysing Yelp datasets containing information related to over 150,000 businesses in 12 metro areas in the United States. 
+
 Sentiment Analysis
 
 In order to understand the popularity and traction of Mexican breakfast and brunch restaurants and what our business should avoid doing, a sentiment analysis was performed over user reviews of all Mexican breakfast and brunch restaurants. The purpose of this analysis was to reveal the most important factors that lead Yelp users to give a high, or conversely low star rating to a particular restaurant. A total of 192 businesses with unique business IDs, totalling to 45,053 reviews were used to conduct the sentiment analysis. 
