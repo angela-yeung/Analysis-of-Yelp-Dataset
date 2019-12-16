@@ -2,7 +2,17 @@
 
 The aim of this project was to derive factors that would lead to a successful chain restaurant by analysing Yelp datasets containing information related to over 150,000 businesses in 12 metro areas in the United States. 
 
-Sentiment Analysis
+# Analysis of Cuisine Types
+
+To understand cuisine trends, analysis was done by counting the number of reviews for each cuisine and sub-cuisine type across years. However, using the raw review counts revealed mostly highly positive trends, which was suspected to be caused by a rapid growth of the Yelp user base. Therefore, review counts needed to be normalised (raw review counts divided by the total number of reviews in each year, i.e. the proportions of reviews on each cuisine type) for trend comparison. Data before 2008 was removed because there were too few reviews.
+
+The analysis focused on 16 common major cuisines, including American New, American Traditional, Mexican, Italian, Japanese, Chinese, Thai, Mediterranean, French, Vietnamese, Greek, Indian, Korean, Hawaiian, African, and Spanish, and 50 popular sub-cuisines, including Bubble Tea, Hot Pot, Ramen, Tacos, Poke, Breakfast and Brunch, Sushi Bars, and so on. The first level of analysis was done by calculating the proportion of each major cuisine.
+
+Although the market share of American cuisine is large and increased from 2008 to 2018, it started to decline around year 2016. On the contrary, Mexican cuisine takes up a large market share as well as exhibiting a constantly increasing trend. As one of the main driving forces for both cuisines, Breakfast and Brunch exhibits a strong growth in market share. The decline in American restaurants may due tocan be explained by the increase from international cuisines. 
+
+Considering the trends of market share over time for each cuisine and sub-cuisine, as well as current market size, it would be desirable to open a restaurant that serves Mexican fusion Breakfast and Brunch. 
+
+# Sentiment Analysis
 
 In order to understand the popularity and traction of Mexican breakfast and brunch restaurants and what our business should avoid doing, a sentiment analysis was performed over user reviews of all Mexican breakfast and brunch restaurants. The purpose of this analysis was to reveal the most important factors that lead Yelp users to give a high, or conversely low star rating to a particular restaurant. A total of 192 businesses with unique business IDs, totalling to 45,053 reviews were used to conduct the sentiment analysis. 
 
