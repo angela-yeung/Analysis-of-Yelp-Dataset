@@ -58,7 +58,7 @@ The linear SVM produces a hyperplane that maximises the margin between the suppo
 		Predict class ‘negative’ if s < 0 
 		where s = b + ∑〖x_i * w_i 〗
                     
-In selecting the top words, those that contained little information such as ‘great’, ‘amazing’, ‘awesome’, and synonyms such as ‘delicious; tasty’ were filtered from the list in order to identify what causes customers to give a high/ low star rating. The top 10 negative and positive words are shown in Figure 11 below: 
+In selecting the top words, those that contained little information such as ‘great’, ‘amazing’, ‘awesome’, and synonyms such as ‘delicious; tasty’ were filtered from the list in order to identify what causes customers to give a high/ low star rating. 
  
 ‘Delicious’ ranked first among all positive words and ‘bland’ ranked first among all negative words, indicating that taste weighs more than other factors like service and price when customers are judging a restaurant. In addition, the majority of negative words are related to the taste and hygiene of food items. Positive words such as ‘attentive’, ‘complaint’, ‘friendly’, ‘quickly’ all suggest that customer service is an important factor for a restaurant’s rating. The words ‘little’ and ‘hidden’ suggest that smaller, hidden, boutique restaurants earn higher review ratings than cookie-cutter chain restaurants. It was also observed that when it comes to the type of food, customers enjoy homemade and Sonoran style Mexican food. The word ‘overpriced’ ranked above the word ‘poor’, alluding that price contributed more to a low review rating rather than poor customer service.
 
