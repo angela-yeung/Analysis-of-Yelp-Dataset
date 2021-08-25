@@ -1,4 +1,4 @@
-# Analysis-of-Yelp-Dataset
+# Sentiment Analysis of Yelp Reviews using Support Vector Machines (SVMs)
 
 The aim of this project was to derive factors that would lead to a successful chain restaurant by analysing Yelp datasets containing information related to over 150,000 businesses in 12 metro areas in the United States. 
 
